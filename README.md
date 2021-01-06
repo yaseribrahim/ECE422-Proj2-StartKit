@@ -54,7 +54,7 @@ the `Client_VM`.
     3. Above command attaches your worker to the Swarm cluster.
 5. On your Swarm manager, download the docker-compose.yml file:
     ```bash
-    $ wget https://raw.githubusercontent.com/hamzehkhazaei/ECE422-Proj2-StartKit/master/docker-compose.yml
+    $ wget https://raw.githubusercontent.com/hamzawey/ECE422-Proj2-StartKit/master/docker-compose.yml
     ```
 6. Run the following to deploy your application:
     ```bash
