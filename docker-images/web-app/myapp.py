@@ -29,6 +29,10 @@ def difficult_function():
 def hello():
     count = redis.incr('hits')
     computation_time = difficult_function()
+    if computation_time > 2 
+        print("scale container up")
+
+    
     return 'Hello There! I have been seen {} times. I have solved the problem in {} seconds.\n'.format(count,
                                                                                                        computation_time)
 
